@@ -25,3 +25,6 @@ for page in pages:
     text += pytesseract.image_to_string(page, lang="ces")
 
 print(text)
+
+
+
